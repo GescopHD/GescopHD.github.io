@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+        <title>PortFolio de Marc Sanchez</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+<!--   A faire : navigateurs qui n'ont pas les scripts d'activé
+<noscript>
+<link rel="stylesheet" href="assets/css/noscript.css"/>
+</noscript>
+-->
+</head>
+
+<body>
+        <nav id="nav">
+                <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#projets">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                </ul>
+        </nav>
+
+        <div id="items">
+                <!-- A remplir : HOME -->
+                <article id="home">
+
+                        <header>
+                                <p><span class="title">Marc Sanchez</span><br><br>
+                                <p><span class="title">Etudiant en licence informatique</span><br>
+                                Actuellement en 3ème année de licence informatique à l'université de Tours.</p>
+                        </header>
+                        
+
+                        <div class="home_box">
+                                <div class="info">
+                                        <h3>Mes compétences techniques :</h3>
+                                        <p class="non_centre espace">
+                                                <strong>Dévelopemment logiciel : </strong>C/C++/JAVA<br>
+                                                <strong>Développement WEB : </strong>HTML/CSS/PHP/JAVASCRIPT<br>
+                                                <strong>Bases de données : </strong>SQL</p>
+                                </div>
+
+                                <div class="info_sport">
+                                                <p><h3>Passionné de sport :</h3>
+                                                Je pratique beaucoup les sports de force, et notamment le street workout (calisthénie).</p>
+                                </div>
+                        </div>
+
+                        <footer>
+                                <h3>De plus en plus attiré par la cybersécurité, je compte poursuivre mes études dans ce domaine.</h3>
+                        </footer>
+
+                </article>
+
+                <!-- A remplir : Projets -->
+
+                <article id="projets">
+                        <h1>Quelques-uns de mes projets</h1>
+
+                        <div id="container">
+                                <!-- Projet 1 -->
+                                <div class="project_screen">
+                                        <a href="#projet1" class="js_modal"><img src="assets/img/Site.png">
+                                                <h3>Site internet dynamique</h3></a>
+                                </div>
+
+                                <aside id="projet1" class="modal_window" style="display: none;">
+                                        <div class="modal_wrapper">
+                                                <h2>Site internet dynamique</h2>
+                                                <div class="modal_window_box">
+                                                        <div class="modal_window_box_left">
+                                                                <img src="assets/img/Site.png">
+                                                        </div>
+
+                                                        <div class="modal_window_box_right">
+                                                                <h3>Description :</h3>
+                                                                <p>Un site web dynamique sur le street workout avec un système d'authentification et de SGBD MySQL.</p><br>
+
+                                                                <h3>Technologies utilisées :</h3>
+                                                                <p class="non_centre espace">
+                                                                <strong>Langage : </strong>HTML/CSS/PHP/JAVASCRIPT/SQL<br>
+                                                                <strong>Base de données : </strong>MySQL (phpMyAdmin)<br></p>
+                                                        </div>
+                                                </div>
+                                                <footer>
+                                                        <p>Accéder au projet : </p>
+                                                        <a href=""><img src="assets/img/GitHub.png" class="logo"></a>
+                                                </footer>
+                                        </div>
+                                </aside>
+
+                                <!-- Projet 2 -->
+                                <div class="project_screen">
+                                        <a href="#projet2" class="js_modal"><img src="assets/img/Jeu.png">
+                                                <h3>Mini jeu RPG</h3></a>
+                                </div>
+
+                                <aside id="projet2" class="modal_window" style="display: none;">
+                                        <div class="modal_wrapper">
+                                                <h2>Mini jeu RPG</h2>
+                                                <div class="modal_window_box">
+                                                        <div class="modal_window_box_left">
+                                                                <img src="assets/img/Jeu.png">
+                                                        </div>
+
+                                                        <div class="modal_window_box_right">
+                                                                <h3>Description :</h3>
+                                                                <p>Un jeu style RPG consistant à battre des sbires afin de monter en niveaux. L'application utilise une base de données MySQL pour les sauvegardes de parties et l'authentification des joueurs.</p><br>
+
+                                                                <h3>Technologies utilisées :</h3>
+                                                                <p class="non_centre espace">
+                                                                <strong>Langage : </strong>JAVA/JSON/SQL<br>
+                                                                <strong>Bibliothèque graphique : </strong>JavaFX<br>
+                                                                <strong>Base de données : </strong>MySQL<br>
+                                                                <strong>Mapping : </strong>Tiled</p>
+                                                        </div>
+                                                </div>
+                                                <footer>
+                                                        <p>Accéder au projet : </p>
+                                                        <a href=""><img src="assets/img/GitHub.png" class="logo"></a>
+                                                </footer>
+                                        </div>
+                                </aside>
+
+                                <!-- Projet 3 -->
+                                <div class="project_screen">
+                                        <a href="#projet3" class="js_modal"><img src="assets/img/Tri.png">
+                                                <h3>Visualisation d'algorithmes de tri</h3></a>
+                                </div>
+                                <aside id="projet3" class="modal_window" style="display: none;">
+                                        <div class="modal_wrapper">
+                                                <h2>Visualisation d'algorithmes de tri</h2>
+                                                <div class="modal_window_box">
+                                                        <div class="modal_window_box_left">
+                                                                <img src="assets/img/Tri.png">
+                                                        </div>
+
+                                                        <div class="modal_window_box_right">
+                                                                <h3>Description :</h3>
+                                                                <p>Une application graphique qui compare visuellement 4 algorithmes de tri sur des tableaux aléatoires. Les 4 algorithmes utilisent chacun un thread différent et sont chronométrés.</p><br>
+
+                                                                <h3>Technologies utilisées :</h3>
+                                                                <p class="non_centre espace">
+                                                                <strong>Langage : </strong>C++<br>
+                                                                <strong>Bibliothèque graphique : </strong>SDL2<br></p>
+                                                        </div>
+                                                </div>
+                                                <footer>
+                                                        <p>Accéder au projet : </p>
+                                                        <a href=""><img src="assets/img/GitHub.png" class="logo"></a>
+                                                </footer>
+                                        </div>
+                                </aside>
+
+                                <!-- Projet 4 -->
+                                <div class="project_screen">
+                                        <a href="#projet4" class="js_modal"><img src="assets/img/Mandelbrot.png">
+                                                <h3>Ensemble de Mandelbrot</h3></a>
+                                </div>
+                                <aside id="projet4" class="modal_window" style="display: none;">
+                                        <div class="modal_wrapper">
+                                                <h2>Ensemble de Mandelbrot</h2>
+                                                <div class="modal_window_box">
+                                                        <div class="modal_window_box_left">
+                                                                <img src="assets/img/Mandelbrot.png">
+                                                        </div>
+
+                                                        <div class="modal_window_box_right">
+                                                                <h3>Description :</h3>
+                                                                <p>Une application de 100 lignes très simpliste qui affiche à l'écran l'ensemble de Mandelbrot avec de belles variations de couleurs.<br>
+                                                                Une option sera ajoutée prochainement afin de pouvoir zoomer et voir l'effet de fractale.</p><br>
+
+                                                                <h3>Technologies utilisées :</h3>
+                                                                <p class="non_centre espace">
+                                                                <strong>Langage : </strong>C++<br>
+                                                                <strong>Bibliothèque graphique : </strong>SDL2<br></p>
+                                                        </div>
+                                                </div>
+                                                <footer>
+                                                        <p>Accéder au projet : </p>
+                                                        <a href=""><img src="assets/img/GitHub.png" class="logo"></a>
+                                                </footer>
+                                        </div>
+                                </aside>
+
+                                <!-- Projet 5 -->
+                                <div class="project_screen">
+                                        <a href="#projet5" class="js_modal"><img src="assets/img/Synthe.png">
+                                                <h3>Synthétiseur</h3></a>
+                                </div>
+                                <aside id="projet5" class="modal_window" style="display: none;">
+                                        <div class="modal_wrapper">
+                                                <h2>Synthétiseur</h2>
+                                                <div class="modal_window_box">
+                                                        <div class="modal_window_box_left">
+                                                                <img src="assets/img/Synthe.png">
+                                                        </div>
+
+                                                        <div class="modal_window_box_right">
+                                                                <h3>Description :</h3>
+                                                                <p>Une application produisant des sons suivant les touches du clavier appuyées "de Q à M".<br>
+                                                                Les sons sont produits par des sinusoïdes modulées en fréquence avec une amplitude fixe.</p><br>
+
+                                                                <h3>Technologies utilisées :</h3>
+                                                                <p class="non_centre espace">
+                                                                <strong>Langage : </strong>C++<br>
+                                                                <strong>Bibliothèque sonore : </strong>SDL2<br></p>
+                                                        </div>
+                                                </div>
+                                                <footer>
+                                                        <p>Accéder au projet : </p>
+                                                        <a href=""><img src="assets/img/GitHub.png" class="logo"></a>
+                                                </footer>
+                                        </div>
+                                </aside>
+
+                                
+
+                                <!-- Projet 6 -->
+                                <div class="project_screen">
+                                        <a href="#projet6" class="js_modal"><img src="assets/img/PortFolio.png">
+                                                <h3>PortFolio</h3></a>
+                                </div>
+                                <aside id="projet6" class="modal_window" style="display: none;">
+                                        <div class="modal_wrapper">
+                                                <h2>PortFolio</h2>
+                                                <div class="modal_window_box">
+                                                        <div class="modal_window_box_left">
+                                                                <img src="assets/img/PortFolio.png">
+                                                        </div>
+
+                                                        <div class="modal_window_box_right">
+                                                                <h3>Description :</h3>
+                                                                <p>Un PortFolio qui présente les différents projets sur lesquels j'ai travaillé.</p><br>
+
+                                                                <h3>Technologies utilisées :</h3>
+                                                                <p class="non_centre espace">
+                                                                <strong>Langages : </strong>HTML/CSS/JAVASCRIPT<br></p>
+                                                        </div>
+                                                </div>
+                                                <footer>
+                                                        <p>Accéder au projet : </p>
+                                                        <a href=""><img src="assets/img/GitHub.png" class="logo"></a>
+                                                </footer>
+                                        </div>
+                                </aside>
+
+                                <!-- Projet 7 -->
+                                <div class="project_screen">
+                                        <a href="#projet7" class="js_modal"><img src="assets/img/WIP.jpeg">
+                                                <h3>Application suivi de performances sportives (en cours ...)</h3></a>
+                                </div>
+                                <aside id="projet7" class="modal_window" style="display: none;">
+                                        <div class="modal_wrapper">
+                                                <h2>Application suivi de performances sportives (en cours ...)</h2>
+                                                <div class="modal_window_box">
+                                                        <div class="modal_window_box_left">
+                                                                <img src="assets/img/WIP.jpeg">
+                                                        </div>
+
+                                                        <div class="modal_window_box_right">
+                                                                <h3>Description :</h3>
+                                                                <p>Une application proposant l'insertion et le suivi de ses performances sportives.</p><br>
+
+                                                                <h3>Technologies utilisées :</h3>
+                                                                <p class="non_centre espace"></p>
+                                                        </div>
+                                                </div>
+                                                <footer>
+                                                        <p>Accéder au projet : </p>
+                                                        <a href=""><img src="assets/img/GitHub.png" class="logo"></a>
+                                                </footer>
+                                        </div>
+                                </aside>
+                        </div>
+                </article>
+
+                                                                        <!-- A remplir : Contact -->
+
+
+                <article id="contact">
+                        <h1>Contact</h1>
+                        <p><strong>Email : </strong>marc_sanchez@hotmail.fr</p>
+                        <div class="contact_box">
+                                <div class="contact_box_item">
+                                        <a href="https://github.com/GescopHD" target="_blank"><img src="assets/img/GitHub.png" class="logo"></a>
+                                        <h3>GitHub</h3>
+                                </div>
+                                <div class="contact_box_item">
+                                        <a href="https://github.com/GescopHD" target="_blank"><img src="assets/img/LinkedIn.png" class="logo"></a>
+                                        <h3>LinkedIn</h3>
+                                </div>
+                        </div>
+                        <p>&copy; Marc Sanchez - 2022</p>
+                </article>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="assets/js/main.js"></script>
+</body>
+</html>
