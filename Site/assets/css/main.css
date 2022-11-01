@@ -6,6 +6,7 @@
 html
 {
 	scroll-behavior: smooth;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 body
@@ -149,6 +150,7 @@ article
 	left: 0;
 	padding: 8px 0;
 	background-color: rgba(50, 50, 50, 0.5);
+	color: rgb(255, 135, 0);
 	width: 100%;
 }
 
